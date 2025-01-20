@@ -35,7 +35,7 @@ Welcome to **Aj's JSON Endpoint Manager**, where JSON dreams come true! This Fla
 3. **Install Dependencies**:       
    ```bash
           pip install -r requirements.txt       
-          ```        
+    ```        
 4. **Run the App**:       
    ```bash       
    python app.py       
