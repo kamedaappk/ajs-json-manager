@@ -1,0 +1,13 @@
+# render.yaml
+
+services:
+  - type: web
+    name: aj-json-endpoint-manager
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn wsgi:app
+    env: python
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    plan: free
