@@ -24,9 +24,14 @@ Welcome to **Aj's JSON Endpoint Manager**, where JSON dreams come true! This Fla
 1. **Clone the Repository**:       
     ```bash       
     git clone https://github.com/sudomaster00081/ajs-json-manager.git       
-    cd json-endpoint-manager       ```        
+    cd json-endpoint-manager       
+    ```        
 2. **Set Up a Virtual Environment** (optional but recommended):       
-   ```bash       python -m venv venv       source venv/bin/activate  # On Windows: venv\\Scripts\\activate       ```        
+   ```bash       
+   python -m venv venv       
+   source venv/bin/activate  
+   # On Windows: venv\\Scripts\\activate       
+   ```        
 3. **Install Dependencies**:       
    ```bash
           pip install -r requirements.txt       
