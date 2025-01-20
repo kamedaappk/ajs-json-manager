@@ -28,9 +28,13 @@ Welcome to **Aj's JSON Endpoint Manager**, where JSON dreams come true! This Fla
 2. **Set Up a Virtual Environment** (optional but recommended):       
    ```bash       python -m venv venv       source venv/bin/activate  # On Windows: venv\\Scripts\\activate       ```        
 3. **Install Dependencies**:       
-   ```bash       pip install -r requirements.txt       ```        
+   ```bash
+          pip install -r requirements.txt       
+          ```        
 4. **Run the App**:       
-   ```bash       python app.py       ```        
+   ```bash       
+   python app.py       
+   ```        
 5. **Open Your Browser**:      
     Visit `http://127.0.0.1:5000` and start managing your JSON endpoints like a boss.     
 ## 🎯 Use Cases        
@@ -38,15 +42,15 @@ Welcome to **Aj's JSON Endpoint Manager**, where JSON dreams come true! This Fla
 - Need a fake API for your frontend? Create a JSON endpoint and mock away!       
 - Example: Create an endpoint named `users` with the following JSON:         
   ```json        
-  [           { \"id\": 1, \"name\": \"John Doe\" },  
-          { \"id\": 2, \"name\": \"Jane Smith\" }         ]         
+  [ { "id": 1, "name": "John Doe" },  
+    { "id": 2, "name": "Jane Smith" }]         
   ```      
 - Access it at `http://127.0.0.1:5000/users`.        
  ### 2. **Quick Data Sharing** 📤       
 - Share JSON data with your team without setting up a database.       
 - Example: Create an endpoint named `config` with your app’s configuration:         
 ```json         
-{           \"theme\": \"dark\\n",           \"language\": \"en\",           \"debug\": true         }        
+{           "theme": "dark","language": "en","debug": true}        
 ```        
 ### 3. **Backup & Restore** 💾       
 - Export your endpoints as a JSON file and restore them later.
